@@ -46,7 +46,7 @@ local AimBloxTab = Window:MakeTab({
 })
 
 local SurvivetheKillerTab = Window:MakeTab({
-	Name = "AimBlox",
+	Name = "SurvivetheKiller",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
