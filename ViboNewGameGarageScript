@@ -45,6 +45,12 @@ local AimBloxTab = Window:MakeTab({
 	PremiumOnly = false
 })
 
+local SurvivetheKillerTab = Window:MakeTab({
+	Name = "AimBlox",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 
 
 
@@ -106,7 +112,7 @@ AimBloxTab:AddButton({
 --END
 
 --SURVIVETHEKILLER
-AimBloxTab:AddButton({
+SurvivetheKillerTab:AddButton({
 	Name = "Eltoro",
 	Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/FOXTROXHACKS/ElToro/main/Hub.lua"))()
